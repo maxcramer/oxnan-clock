@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import "./time.css";
+
 function Time() {
   const [time, setTime] = useState("");
 
