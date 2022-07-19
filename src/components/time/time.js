@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import DisplayDate from "../displayDate/displayDate";
+
 import "./time.css";
 
 function Time() {
@@ -34,7 +36,10 @@ function Time() {
   return (
     <div className="clock">
       <div className="screen">
-        <div className="time">{time}</div>
+        <div className="time_container">
+          <div className="time">{time}</div>
+          <DisplayDate />
+        </div>
       </div>
     </div>
   );
