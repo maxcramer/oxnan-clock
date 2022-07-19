@@ -33,7 +33,7 @@ function Time() {
 
   return (
     <div className="clock">
-      <div className="sreen">
+      <div className="screen">
         <div className="time">{time}</div>
       </div>
     </div>
