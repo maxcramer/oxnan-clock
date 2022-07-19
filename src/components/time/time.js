@@ -33,16 +33,7 @@ function Time() {
     );
   }
 
-  return (
-    <div className="clock">
-      <div className="screen">
-        <div className="time_container">
-          <div className="time">{time}</div>
-          <DisplayDate />
-        </div>
-      </div>
-    </div>
-  );
+  return <div className="time">{time}</div>;
 }
 
 export default Time;
